@@ -1,11 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana;
+
 } 
 body{
     padding-top: 80px;
-    padding-left: 105px;
+    padding-left: 96px;
     padding-right: 24px;
     background-color: rgb(248, 248, 248);
+    font-family: Verdana;
 }
