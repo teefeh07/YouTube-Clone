@@ -150,7 +150,7 @@
     white-space: nowrap;
 }
 
-@media (max-width: 375px) and (min-width: 450px){
+@media (min-width: 320px) and (max-width: 480px){
     .left-section{
         width: 50px;
     }
