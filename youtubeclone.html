@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/sidebar.css" />
+    <link rel="stylesheet" href="./styles/video.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="./icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="./icons/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" placeholder="Search" type="text" />
+        <button class="search-button">
+          <img class="search-icon" src="./icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="./icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="./icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps" src="./icons/youtube-apps.svg" />
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+
+        <div class="notifications-container">
+          <img class="notification-icon" src="./icons/notifications.svg" />
+          <div class="notifications-count">7</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img class="current-user-picture" src="./channel-pictures/Bolu2.jpg" />
+      </div>
+    </header>
+
+    <nav class="side-bar">
+      <div class="sidebar-link">
+        <img src="./icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              src="./images/Bolu2.jpg"
+              class="thumbnail-picture"
+              alt="A picture of Boluwatife Ayesa"
+            />
+            <div class="video-duration">18:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                src="./images/Bolu2.jpg"
+                class="profile-picture"
+                alt="A picture of the user"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Boluwatife Ayesa is engaged to elite basketball star, Jordan
+                Poole
+              </p>
+              <p class="video-author">ESPN</p>
+              <p class="video-stats">1B Views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              src="./images/Bolu and Dami (4).jpg"
+              class="thumbnail-picture"
+              alt="A picture of Boluwatife and Damilola Ayesa"
+            />
+            <div class="video-duration">6:50</div>
+          </div>
+          <div>
+            <div class="channel-picture">
+              <img
+                src="./images/Bolu and Dami (4).jpg"
+                class="profile-picture"
+                alt="A picture of the user"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Software Engineer, Boluwatife and Product Designer,Damilola
+                finally collaborate on a project
+              </p>
+              <p class="video-author">TechCabal</p>
+              <p class="video-stats">10M Views &#183; 3 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="./images/Bible Verse.jpg" class="thumbnail-picture" />
+            <div class="video-duration">8: 15</div>
+          </div>
+          <div>
+            <div class="channel-picture">
+              <img src="./images/Bible Verse.jpg" class="profile-picture" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">God's Promises for you</p>
+              <p class="video-author">Bible Verses</p>
+              <p class="video-stats">110M Views &#183; 3 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="./images/Adetolubode.JPG" class="thumbnail-picture" />
+            <div class="video-duration">23:07</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="./images/Adetolubode.JPG" class="profile-picture" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Watch the lives of the Ayesa Sisters finally launch their
+                startup company; ADETOLUBODE Limited
+              </p>
+              <p class="video-author">Forbes</p>
+              <p class="video-stats">300M Views &#183; 1 week ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="./images/Peace3.jpg" class="thumbnail-picture" />
+            <div class="video-duration">14:03</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="./images/Peace3.jpg" class="profile-picture" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Nigerian-born Singer, Avose Peace wins American Idol Season 21
+              </p>
+              <p class="video-author">American Idol</p>
+              <p class="video-stats">110M Views &#183; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="./images/Demola3.png" class="thumbnail-picture" />
+            <div class="video-duration">7:47</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="./images/Demola3.png" class="profile-picture" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Exceptional Software Engineer, Akinsola Ademola joins tech
+                giant, Google
+              </p>
+              <p class="video-author">Silicon Valley</p>
+              <p class="video-stats">32M Views &#183; 1 hour ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="./images/Blessing3.jpg" class="thumbnail-picture" />
+            <div class="video-duration">12:41</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="./images/Blessing3.jpg" class="profile-picture" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Idoko Blessing set to be the next CBN Governor
+              </p>
+              <p class="video-author">
+                Chartered Accountants Association of Nigerian
+              </p>
+              <p class="video-stats">30M Views &#183; 3 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="./images/Oreofe4.jpg" class="thumbnail-picture" />
+            <div class="video-duration">4:32</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="./images/Oreofe4.jpg" class="profile-picture" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Stastitician, Oreofe Oso finally renounces Arsenal; joins
+                Manchester United
+              </p>
+              <p class="video-author">EPL</p>
+              <p class="video-stats">5M Views &#183; 14 hours ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="./images/Stella.jpg" class="thumbnail-picture" />
+            <div class="video-duration">10:49</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="./images/Stella.jpg" class="profile-picture" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Tech and Criminal Justice Lawyer, Ayesa Stella talks about life
+                since joining Latham & Watkins
+              </p>
+              <p class="video-author">Tech Law</p>
+              <p class="video-stats">600M Views &#183; 3 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="./images/Tolulope2.jpg" class="thumbnail-picture" />
+            <div class="video-duration">12:25</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="./images/Tolulope2.jpg" class="profile-picture" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Ayesa Tolulope graduates Summa Cum Laude, set to begin as
+                Professor at Stanford University in the fall
+              </p>
+              <p class="video-author">Stanford Business</p>
+              <p class="video-stats">44M Views &#183; 1 hour ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="./images/Ugo3.jpg" class="thumbnail-picture" />
+            <div class="video-duration">9:27</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="./images/Ugo3.jpg" class="profile-picture" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Ugo Ogoke gets full ride scholarship to study at the
+                Massachusetts Institute of Technology
+              </p>
+              <p class="video-author">MIT Engineering</p>
+              <p class="video-stats">70M Views &#183; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="./images/pueblo-blanco3.jpg" class="thumbnail-picture" />
+            <div class="video-duration">14:06</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="./images/pueblo-blanco3.jpg" class="profile-picture" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Top Vacation Destinations</p>
+              <p class="video-author">Travel Nation</p>
+              <p class="video-stats">1M Views &#183; 10 minutes ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
