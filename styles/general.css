@@ -5,8 +5,16 @@
 } 
 body{
     padding-top: 80px;
-    padding-left: 96px;
+    padding-left: 105px;
     padding-right: 24px;
     background-color: rgb(248, 248, 248);
     font-family: Verdana;
+}
+@media (max-width: 375px) and (min-width: 450px){
+    body{
+        padding-right: 15px;
+        padding-left: 92px;
+
+    }
+
 }

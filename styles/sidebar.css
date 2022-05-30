@@ -4,12 +4,12 @@
      top: 55px;
      left: 0;
      bottom: 0;
-     width: 72px;
+     width: 82px;
      z-index: 200;
      padding-top: 5px;
  }
  .sidebar-link{
-    height: 74px;
+    height: 76px;
     display: flex;
     flex-direction: column;
     justify-content: center;

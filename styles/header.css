@@ -149,3 +149,25 @@
 .voice-search-button .tooltip, .youtube-apps-container .tooltip{
     white-space: nowrap;
 }
+
+@media (max-width: 375px) and (min-width: 450px){
+    .left-section{
+        width: 50px;
+    }
+
+    .right-section{
+        width: 100px;
+        flex-shrink: 0;
+        margin-right: 10px;
+    }
+
+    .middle-section{
+        margin-left: 20px;
+        margin-right: 8px;
+    }
+    .hamburger-menu{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+}
